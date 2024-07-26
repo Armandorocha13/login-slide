@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated login-register form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="container" id="container">
+
+
+        <div class="form-container register">
+            <form>
+                <h1>Register</h1>
+
+                <input type="text" placeholder="Usuario" required>
+                <input type="Senha" placeholder="Senha" required>
+                <input type="password" placeholder="Confirme a Senha" required>
+
+
+                <button>Criar conta</button>
+
+                <span>ou crie com</span>
+
+                <div class="social-icons">
+                    <a href="#"><i><box-icon type='logo' name='facebook-square'></box-icon></i></a>
+                    <a href="#"><i><box-icon name='instagram' type='logo'></box-icon></i></a>
+                    <a href="#"><i><box-icon name='linkedin-square' type='logo'></box-icon></i></a>
+                    <a href="#"><i><box-icon type='logo' name='github'></box-icon></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-container login">
+            <form>
+                <h1>Login</h1>
+                <input type="text" placeholder="Usuario">
+                <input type="password" placeholder="Senha">
+                <a href="#">Esqueceu a senha?</a>
+                <button>Login</button>
+
+                <span>Ou logue com </span>
+
+
+                <div class="social-icons">
+                    <a href="#"><i><box-icon type='logo' name='facebook-circle'></box-icon></i></a>
+                    <a href="#"><i><box-icon name='instagram' type='logo'></box-icon></i></a>
+                    <a href="#"><i><box-icon name='linkedin-square' type='logo'></box-icon></i></a>
+                    <a href="#"><i><box-icon type='logo' name='github'></box-icon></i></a>
+                </div>
+
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+
+              
+                <div class="toggle-panel-right">
+                    <h2>Olá! Bem vindo, ao  nosso site </h2>
+                    <p>Crie uma conta para acessar</p>
+                    <button class="hidden"
+                     id="criar-conta">Criar conta</button>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="./script/script.js"></script>
+</body>
+
+
+
+</html>
