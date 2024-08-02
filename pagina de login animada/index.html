@@ -1,39 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animated login-register form</title>
+    <title>Formulário de Login e Registro</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-
-
 </head>
 
 <body>
 
     <div class="container" id="container">
 
-
         <div class="form-container register">
             <form>
-                <h1>Register</h1>
-
-                <input type="text" placeholder="Usuario" required>
-                <input type="Senha" placeholder="Senha" required>
+                <h1>Registrar</h1>
+                <input type="text" placeholder="Usuário" required>
+                <input type="password" placeholder="Senha" required>
                 <input type="password" placeholder="Confirme a Senha" required>
-
-
                 <button>Criar conta</button>
-
-                <span>ou crie com</span>
-
+                <span>ou registre-se com</span>
                 <div class="social-icons">
-                    <a href="#"><i><box-icon type='logo' name='facebook-square'></box-icon></i></a>
-                    <a href="#"><i><box-icon name='instagram' type='logo'></box-icon></i></a>
-                    <a href="#"><i><box-icon name='linkedin-square' type='logo'></box-icon></i></a>
-                    <a href="#"><i><box-icon type='logo' name='github'></box-icon></i></a>
+                    <a href="#"><box-icon type='logo' name='facebook-square'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='instagram'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='linkedin-square'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='github'></box-icon></a>
                 </div>
             </form>
         </div>
@@ -41,43 +33,39 @@
         <div class="form-container login">
             <form>
                 <h1>Login</h1>
-                <input type="text" placeholder="Usuario">
+                <input type="text" placeholder="Usuário">
                 <input type="password" placeholder="Senha">
                 <a href="#">Esqueceu a senha?</a>
                 <button>Login</button>
-
-                <span>Ou logue com </span>
-
-
+                <span>Ou faça login com</span>
                 <div class="social-icons">
-                    <a href="#"><i><box-icon type='logo' name='facebook-circle'></box-icon></i></a>
-                    <a href="#"><i><box-icon name='instagram' type='logo'></box-icon></i></a>
-                    <a href="#"><i><box-icon name='linkedin-square' type='logo'></box-icon></i></a>
-                    <a href="#"><i><box-icon type='logo' name='github'></box-icon></i></a>
+                    <a href="#"><box-icon type='logo' name='facebook-circle'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='instagram'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='linkedin-square'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='github'></box-icon></a>
                 </div>
-
             </form>
         </div>
+
         <div class="toggle-container">
             <div class="toggle">
-
-              
                 <div class="toggle-panel-right">
-                    <h2>Olá! Bem vindo, ao  nosso site </h2>
-                    <p>Crie uma conta para acessar</p>
-                    <button class="hidden"
-                     id="criar-conta">Criar conta</button>
+                    <h2>Olá! Bem-vindo ao nosso site</h2>
+                    <p>Crie uma conta para usar nosso site</p>
+                    <button class="hidden" id="register">Criar conta</button>
                 </div>
-               
+                <div class="toggle-panel-left">
+                    <h2>Olá! Bem-vindo de volta</h2>
+                    <p>Faça login para entrar</p>
+                    <button class="hidden" id="login">Login</button>
+                   
+                </div>
             </div>
         </div>
-    </div>
 
     </div>
 
     <script src="./script/script.js"></script>
 </body>
-
-
 
 </html>
