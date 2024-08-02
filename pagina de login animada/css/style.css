@@ -128,6 +128,8 @@ span {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+    background-color: #ffffff;
+    border-radius: 60px;
     margin: 10px 0;
 }
 
@@ -145,11 +147,11 @@ span {
 }
 
 .social-icons i {
-    font-size: 14px;
+    font-size: 28px;
 }
 
 .social-icons i:hover {
-    background-color: #f5f1f1;background: #fff;
+    background-color: #fff;
     color: #ffffff;
     border-radius: 60%;
     width: 100%;
@@ -210,7 +212,7 @@ span {
 }
 
 .toggle-panel-left{
-    margin-left: -150%;
+    margin-left: -250%;
     margin-top: -85%;
     
 }
